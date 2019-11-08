@@ -1,0 +1,1 @@
+cmd_/home/willian/Desktop/linuxDistro/buildroot/modules/simple_driver/built-in.o :=  rm -f /home/willian/Desktop/linuxDistro/buildroot/modules/simple_driver/built-in.o; ar rcSTPD /home/willian/Desktop/linuxDistro/buildroot/modules/simple_driver/built-in.o

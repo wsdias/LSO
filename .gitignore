@@ -1,0 +1,16 @@
+/output
+/.auto.deps
+/.config.cmd
+/.config.old
+/..config.tmp
+/.config
+/dl/linux-master.tar.gz
+*.depend
+*.o
+/*.patch
+/*.diff
+*.orig
+*.rej
+*~
+*.pyc
+sdb.bin

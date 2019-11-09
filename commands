@@ -1,0 +1,2 @@
+export LINUX_OVERRIDE_SRCDIR=/home/willian/Desktop/linuxDistro/kernel
+export PATH=$PATH:/home/willian/Desktop/linuxDistro/buildroot/output/host/bin

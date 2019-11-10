@@ -25,3 +25,11 @@ make -C $BASE_DIR/../modules/simple_driver_modified/
 
 # FTrace
 cp $BASE_DIR/../custom-scripts/fstab $BASE_DIR/target/etc
+
+# Thread Runner
+BUILDROOT_DIR=$BASE_DIR/..
+COMPILER=$BUILDROOT_DIR/output/host/bin/i686-buildroot-linux-uclibc-gcc
+$COMPILER -o $BUILDROOT_DIR/output/target/bin/thread_runner $BUILDROOT_DIR/t3/thread_runner.c
+chmod +x $BASE_DIR/target/bin/thread_runner
+
+

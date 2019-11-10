@@ -40,6 +40,8 @@ int main (int argc, char *argv[]){
 		sem_init(&sync, 0, 0);
 		bufferIndex = 0;
 
+		sleep(3);
+
 		for (i = 0; i < nThreads; i++)
 			pthread_create(&threads[i], NULL, thread, i);
 

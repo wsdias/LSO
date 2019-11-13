@@ -1,3 +1,11 @@
+/*
+ * Thread Runner
+ *
+ * Nomes: Luiz Antonio Riboli e Willian Dias
+ * Laboratorio de Sistemas Operacionais - T3 - 2019/02
+ * Professor: Miguel Gomes Xavier
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
